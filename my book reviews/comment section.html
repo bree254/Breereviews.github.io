@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>comments</title>
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body class="bgimgl">
+
+<div class="container-fluid">
+
+    <h1 class="text-white">COMMENT SECTION</h1>
+    <h4 class="text-white font-italic">here you can comment on any of the reviews ,ask questions or enquire on anything that is bothering you</h4>
+    <!-------Wrap------------>
+    <div id="wrap">
+        <div id="main">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 class="heading">Comments and Responses</h3>
+                </div>
+                <div class="col-md-7">
+                    <div id="upper_blank"></div>
+                </div>
+            </div>
+        </div>
+
+        <p>Your email address will not be published. Required fields are marked *</p>
+
+        <!------------Form Start---------->
+
+        <div id='form'>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <form action="" method="POST" id="commentform">
+
+                        <div id="comment-name" class="form-row">
+                            <input type = "text" placeholder = "Name (required)" name = "dname"  id = "name" >
+                        </div>
+                        <div id="comment-email" class="form-row">
+                            <input type = "text" placeholder = "Mail (will not be published) (required)" name = "demail"  id = "email">
+                        </div>
+                        <div id="comment-url" class="form-row">
+                            <input type = "text" placeholder = "Website" name = "url"  id = "url" >
+                        </div>
+                        <div id="comment-message" class="form-row">
+                            <textarea name = "comment" placeholder = "Message" id = "comment" ></textarea>
+                        </div>
+                        <a href="#"><input type="submit" name="dsubmit" id="commentSubmit" value="Submit Comment"></a>
+                        <input style="width: 30px" type="checkbox" value="1" name="subscribe" id="subscribe" checked="checked">
+                        <p1><b>Notify me when new comments are added.</b></p1>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Reply Section------->
+    <div id="second">
+        <div class="row">
+            <div class="col-md-2">
+                <h3 class="second_heading"><b>Leave a Reply</b></h3>
+            </div>
+            <div class="col-md-10">
+                <div class="blank"></div>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <form>
+            <a href="#"><input type = "text" value = "reply" name = "dreply" id = "inner_reply"></a>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
